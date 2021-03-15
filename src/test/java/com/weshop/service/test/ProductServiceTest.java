@@ -1,10 +1,10 @@
-package com.mmall.service.test;
+package com.weshop.service.test;
 
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
-import com.mmall.common.ServerResponse;
-import com.mmall.service.IProductService;
-import com.mmall.test.TestBase;
+import com.weshop.common.ServerResponse;
+import com.weshop.service.IProductService;
+import com.weshop.test.TestBase;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -26,11 +26,11 @@ public class ProductServiceTest extends TestBase {
 
     public static void main(String[] args) {
         List<String> images = Lists.newArrayList();
-        images.add("mmall/aa.jpg");
-        images.add("mmall/bb.jpg");
-        images.add("mmall/cc.jpg");
-        images.add("mmall/dd.jpg");
-        images.add("mmall/ee.jpg");
-//        ["mmall/aa.jpg","mmall/bb.jpg","mmall/cc.jpg","mmall/dd.jpg","mmall/ee.jpg"]
+        images.add("weshop/aa.jpg");
+        images.add("weshop/bb.jpg");
+        images.add("weshop/cc.jpg");
+        images.add("weshop/dd.jpg");
+        images.add("weshop/ee.jpg");
+//        ["weshop/aa.jpg","weshop/bb.jpg","weshop/cc.jpg","weshop/dd.jpg","weshop/ee.jpg"]
     }
 }

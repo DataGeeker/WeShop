@@ -1,11 +1,11 @@
-package com.mmall.controller.portal;
+package com.weshop.controller.portal;
 
-import com.mmall.common.Const;
-import com.mmall.common.ResponseCode;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.User;
-import com.mmall.service.ICartService;
-import com.mmall.vo.CartVo;
+import com.weshop.common.Const;
+import com.weshop.common.ResponseCode;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.User;
+import com.weshop.service.ICartService;
+import com.weshop.vo.CartVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

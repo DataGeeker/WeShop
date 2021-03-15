@@ -1,4 +1,4 @@
-package com.mmall.common;
+package com.weshop.common;
 
 /**
  * Created by Rufy

@@ -1,9 +1,9 @@
-package com.mmall.dao.test;
+package com.weshop.dao.test;
 
-import com.mmall.dao.CategoryMapper;
-import com.mmall.pojo.Category;
-import com.mmall.service.impl.CategoryServiceImpl;
-import com.mmall.test.TestBase;
+import com.weshop.dao.CategoryMapper;
+import com.weshop.pojo.Category;
+import com.weshop.service.impl.CategoryServiceImpl;
+import com.weshop.test.TestBase;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

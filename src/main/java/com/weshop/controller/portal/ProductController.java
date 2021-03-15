@@ -1,9 +1,9 @@
-package com.mmall.controller.portal;
+package com.weshop.controller.portal;
 
 import com.github.pagehelper.PageInfo;
-import com.mmall.common.ServerResponse;
-import com.mmall.service.IProductService;
-import com.mmall.vo.ProductDetailVo;
+import com.weshop.common.ServerResponse;
+import com.weshop.service.IProductService;
+import com.weshop.vo.ProductDetailVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

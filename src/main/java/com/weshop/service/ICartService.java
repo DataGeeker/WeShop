@@ -1,7 +1,7 @@
-package com.mmall.service;
+package com.weshop.service;
 
-import com.mmall.common.ServerResponse;
-import com.mmall.vo.CartVo;
+import com.weshop.common.ServerResponse;
+import com.weshop.vo.CartVo;
 
 /**
  * Created by Rufy

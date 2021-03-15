@@ -1,4 +1,4 @@
-package com.mmall.vo;
+package com.weshop.vo;
 
 import java.math.BigDecimal;
 

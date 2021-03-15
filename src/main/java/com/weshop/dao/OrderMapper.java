@@ -1,6 +1,6 @@
-package com.mmall.dao;
+package com.weshop.dao;
 
-import com.mmall.pojo.Order;
+import com.weshop.pojo.Order;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

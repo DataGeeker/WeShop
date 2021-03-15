@@ -1,4 +1,4 @@
-package com.mmall.test;
+package com.weshop.test;
 
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;

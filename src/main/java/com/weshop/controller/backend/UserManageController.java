@@ -1,9 +1,9 @@
-package com.mmall.controller.backend;
+package com.weshop.controller.backend;
 
-import com.mmall.common.Const;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.User;
-import com.mmall.service.IUserService;
+import com.weshop.common.Const;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.User;
+import com.weshop.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

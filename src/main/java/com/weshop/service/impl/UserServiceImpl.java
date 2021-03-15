@@ -1,12 +1,12 @@
-package com.mmall.service.impl;
+package com.weshop.service.impl;
 
-import com.mmall.common.Const;
-import com.mmall.common.ServerResponse;
-import com.mmall.common.TokenCache;
-import com.mmall.dao.UserMapper;
-import com.mmall.pojo.User;
-import com.mmall.service.IUserService;
-import com.mmall.util.MD5Util;
+import com.weshop.common.Const;
+import com.weshop.common.ServerResponse;
+import com.weshop.common.TokenCache;
+import com.weshop.dao.UserMapper;
+import com.weshop.pojo.User;
+import com.weshop.service.IUserService;
+import com.weshop.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

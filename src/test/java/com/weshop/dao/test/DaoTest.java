@@ -1,8 +1,8 @@
-package com.mmall.dao.test;
+package com.weshop.dao.test;
 
-import com.mmall.dao.UserMapper;
-import com.mmall.pojo.User;
-import com.mmall.test.TestBase;
+import com.weshop.dao.UserMapper;
+import com.weshop.pojo.User;
+import com.weshop.test.TestBase;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

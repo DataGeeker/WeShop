@@ -1,9 +1,9 @@
-package com.mmall.service;
+package com.weshop.service;
 
 import com.github.pagehelper.PageInfo;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.Product;
-import com.mmall.vo.ProductDetailVo;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.Product;
+import com.weshop.vo.ProductDetailVo;
 
 /**
  * Created by Rufy

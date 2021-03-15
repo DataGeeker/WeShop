@@ -1,4 +1,4 @@
-package com.mmall.util;
+package com.weshop.util;
 
 import org.springframework.util.StringUtils;
 

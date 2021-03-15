@@ -1,7 +1,7 @@
-package com.mmall.service;
+package com.weshop.service;
 
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.Category;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.Category;
 
 import java.util.List;
 

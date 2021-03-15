@@ -1,10 +1,10 @@
-package com.mmall.service.test;
+package com.weshop.service.test;
 
 import com.github.pagehelper.PageInfo;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.Shipping;
-import com.mmall.service.impl.ShippingServiceImpl;
-import com.mmall.test.TestBase;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.Shipping;
+import com.weshop.service.impl.ShippingServiceImpl;
+import com.weshop.test.TestBase;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.junit.Test;
 import org.slf4j.Logger;

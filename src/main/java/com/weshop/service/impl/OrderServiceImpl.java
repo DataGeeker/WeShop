@@ -1,4 +1,4 @@
-package com.mmall.service.impl;
+package com.weshop.service.impl;
 
 import com.alipay.api.AlipayResponse;
 import com.alipay.api.response.AlipayTradePrecreateResponse;
@@ -15,29 +15,29 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.mmall.common.Const;
-import com.mmall.common.ServerResponse;
-import com.mmall.dao.CartMapper;
-import com.mmall.dao.OrderItemMapper;
-import com.mmall.dao.OrderMapper;
-import com.mmall.dao.PayInfoMapper;
-import com.mmall.dao.ProductMapper;
-import com.mmall.dao.ShippingMapper;
-import com.mmall.pojo.Cart;
-import com.mmall.pojo.Order;
-import com.mmall.pojo.OrderItem;
-import com.mmall.pojo.PayInfo;
-import com.mmall.pojo.Product;
-import com.mmall.pojo.Shipping;
-import com.mmall.service.IOrderService;
-import com.mmall.util.BigDecimalUtil;
-import com.mmall.util.DateTimeUtil;
-import com.mmall.util.FTPUtil;
-import com.mmall.util.PropertiesUtil;
-import com.mmall.vo.OrderItemVo;
-import com.mmall.vo.OrderProductVo;
-import com.mmall.vo.OrderVo;
-import com.mmall.vo.ShippingVo;
+import com.weshop.common.Const;
+import com.weshop.common.ServerResponse;
+import com.weshop.dao.CartMapper;
+import com.weshop.dao.OrderItemMapper;
+import com.weshop.dao.OrderMapper;
+import com.weshop.dao.PayInfoMapper;
+import com.weshop.dao.ProductMapper;
+import com.weshop.dao.ShippingMapper;
+import com.weshop.pojo.Cart;
+import com.weshop.pojo.Order;
+import com.weshop.pojo.OrderItem;
+import com.weshop.pojo.PayInfo;
+import com.weshop.pojo.Product;
+import com.weshop.pojo.Shipping;
+import com.weshop.service.IOrderService;
+import com.weshop.util.BigDecimalUtil;
+import com.weshop.util.DateTimeUtil;
+import com.weshop.util.FTPUtil;
+import com.weshop.util.PropertiesUtil;
+import com.weshop.vo.OrderItemVo;
+import com.weshop.vo.OrderProductVo;
+import com.weshop.vo.OrderVo;
+import com.weshop.vo.ShippingVo;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
@@ -409,7 +409,7 @@ public class OrderServiceImpl implements IOrderService {
 
 
         // (必填) 订单标题，粗略描述用户的支付目的。如“xxx品牌xxx门店当面付扫码消费”
-        String subject = new StringBuilder().append("happymmall扫码支付,订单号:").append(outTradeNo).toString();
+        String subject = new StringBuilder().append("happyweshop扫码支付,订单号:").append(outTradeNo).toString();
 
 
         // (必填) 订单总金额，单位为元，不能超过1亿元

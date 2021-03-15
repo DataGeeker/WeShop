@@ -1,12 +1,12 @@
-package com.mmall.service.impl;
+package com.weshop.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Maps;
-import com.mmall.common.ServerResponse;
-import com.mmall.dao.ShippingMapper;
-import com.mmall.pojo.Shipping;
-import com.mmall.service.IShippingService;
+import com.weshop.common.ServerResponse;
+import com.weshop.dao.ShippingMapper;
+import com.weshop.pojo.Shipping;
+import com.weshop.service.IShippingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

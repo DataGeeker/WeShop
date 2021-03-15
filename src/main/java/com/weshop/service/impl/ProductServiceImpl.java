@@ -1,22 +1,22 @@
-package com.mmall.service.impl;
+package com.weshop.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
-import com.mmall.common.Const;
-import com.mmall.common.ResponseCode;
-import com.mmall.common.ServerResponse;
-import com.mmall.dao.CategoryMapper;
-import com.mmall.dao.ProductMapper;
-import com.mmall.pojo.Category;
-import com.mmall.pojo.Product;
-import com.mmall.service.ICategoryService;
-import com.mmall.service.IProductService;
-import com.mmall.util.DateTimeUtil;
-import com.mmall.util.PropertiesUtil;
-import com.mmall.vo.ProductDetailVo;
-import com.mmall.vo.ProductListVo;
+import com.weshop.common.Const;
+import com.weshop.common.ResponseCode;
+import com.weshop.common.ServerResponse;
+import com.weshop.dao.CategoryMapper;
+import com.weshop.dao.ProductMapper;
+import com.weshop.pojo.Category;
+import com.weshop.pojo.Product;
+import com.weshop.service.ICategoryService;
+import com.weshop.service.IProductService;
+import com.weshop.util.DateTimeUtil;
+import com.weshop.util.PropertiesUtil;
+import com.weshop.vo.ProductDetailVo;
+import com.weshop.vo.ProductListVo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -108,7 +108,7 @@ public class ProductServiceImpl implements IProductService {
         productDetailVo.setStatus(product.getStatus());
         productDetailVo.setStock(product.getStock());
 
-        productDetailVo.setImageHost(PropertiesUtil.getProperty("ftp.server.http.prefix","http://img.happymmall.com/"));
+        productDetailVo.setImageHost(PropertiesUtil.getProperty("ftp.server.http.prefix","http://img.happyweshop.com/"));
 
         Category category = categoryMapper.selectByPrimaryKey(product.getCategoryId());
         if(category == null){
@@ -146,7 +146,7 @@ public class ProductServiceImpl implements IProductService {
         productListVo.setId(product.getId());
         productListVo.setName(product.getName());
         productListVo.setCategoryId(product.getCategoryId());
-        productListVo.setImageHost(PropertiesUtil.getProperty("ftp.server.http.prefix","http://img.happymmall.com/"));
+        productListVo.setImageHost(PropertiesUtil.getProperty("ftp.server.http.prefix","http://img.happyweshop.com/"));
         productListVo.setMainImage(product.getMainImage());
         productListVo.setPrice(product.getPrice());
         productListVo.setSubtitle(product.getSubtitle());

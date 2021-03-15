@@ -1,15 +1,15 @@
-package com.mmall.controller.backend;
+package com.weshop.controller.backend;
 
 import com.google.common.collect.Maps;
-import com.mmall.common.Const;
-import com.mmall.common.ResponseCode;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.Product;
-import com.mmall.pojo.User;
-import com.mmall.service.IFileService;
-import com.mmall.service.IProductService;
-import com.mmall.service.IUserService;
-import com.mmall.util.PropertiesUtil;
+import com.weshop.common.Const;
+import com.weshop.common.ResponseCode;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.Product;
+import com.weshop.pojo.User;
+import com.weshop.service.IFileService;
+import com.weshop.service.IProductService;
+import com.weshop.service.IUserService;
+import com.weshop.util.PropertiesUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

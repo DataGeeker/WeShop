@@ -1,4 +1,4 @@
-package com.mmall.test；
+package com.weshop.test；
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

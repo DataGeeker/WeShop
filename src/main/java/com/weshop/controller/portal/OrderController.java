@@ -1,14 +1,14 @@
-package com.mmall.controller.portal;
+package com.weshop.controller.portal;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.internal.util.AlipaySignature;
 import com.alipay.demo.trade.config.Configs;
 import com.google.common.collect.Maps;
-import com.mmall.common.Const;
-import com.mmall.common.ResponseCode;
-import com.mmall.common.ServerResponse;
-import com.mmall.pojo.User;
-import com.mmall.service.IOrderService;
+import com.weshop.common.Const;
+import com.weshop.common.ResponseCode;
+import com.weshop.common.ServerResponse;
+import com.weshop.pojo.User;
+import com.weshop.service.IOrderService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
